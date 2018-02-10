@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2017
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameJam2018", "GameJam2018.csproj", "{32F7845E-E0CE-F7FC-B36B-D42276D8BF88}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameJam2018.Plugins", "GameJam2018.Plugins.csproj", "{5777963E-2CF3-D3E6-DEB9-BDAD3A5C2C46}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameJam2018", "GameJam2018.csproj", "{32F7845E-E0CE-F7FC-B36B-D42276D8BF88}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameJam2018.Editor.Plugins", "GameJam2018.Editor.Plugins.csproj", "{F8A3212C-95AA-79FC-22AF-6DD80316934E}"
 EndProject
@@ -13,14 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{32F7845E-E0CE-F7FC-B36B-D42276D8BF88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{32F7845E-E0CE-F7FC-B36B-D42276D8BF88}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{32F7845E-E0CE-F7FC-B36B-D42276D8BF88}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{32F7845E-E0CE-F7FC-B36B-D42276D8BF88}.Release|Any CPU.Build.0 = Release|Any CPU
 		{5777963E-2CF3-D3E6-DEB9-BDAD3A5C2C46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{5777963E-2CF3-D3E6-DEB9-BDAD3A5C2C46}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5777963E-2CF3-D3E6-DEB9-BDAD3A5C2C46}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5777963E-2CF3-D3E6-DEB9-BDAD3A5C2C46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32F7845E-E0CE-F7FC-B36B-D42276D8BF88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32F7845E-E0CE-F7FC-B36B-D42276D8BF88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32F7845E-E0CE-F7FC-B36B-D42276D8BF88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32F7845E-E0CE-F7FC-B36B-D42276D8BF88}.Release|Any CPU.Build.0 = Release|Any CPU
 		{F8A3212C-95AA-79FC-22AF-6DD80316934E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{F8A3212C-95AA-79FC-22AF-6DD80316934E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F8A3212C-95AA-79FC-22AF-6DD80316934E}.Release|Any CPU.ActiveCfg = Release|Any CPU
