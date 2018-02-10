@@ -123,6 +123,8 @@ namespace UnityStandardAssets.Characters.FirstPerson
             m_RigidBody = GetComponent<Rigidbody>();
             m_Capsule = GetComponent<CapsuleCollider>();
             mouseLook.Init (transform, cam.transform);
+            //This is Molly.  I tried adding the CollisionDetectionMode and thought it worked on my computer but it didn't work on yours. :/
+            m_RigidBody.collisionDetectionMode = CollisionDetectionMode.ContinuousDynamic;
         }
 
 
