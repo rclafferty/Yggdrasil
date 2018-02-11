@@ -16,7 +16,8 @@ public class PlayerBehavior : MonoBehaviour {
 
     private void OnCollisionStay(Collision collision)
     {
-        if (collision.collider.name == "COOL_Terrain" || collision.collider.name == "Terrain")
+        //if (collision.collider.name == "COOL_Terrain" || collision.collider.name == "Terrain")
+        if (collision.collider.name == "cave ball smooth floor")
             return;
 
         Debug.Log("Collided with " + collision.collider.name);

@@ -8,9 +8,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/title.unity
     guid: 46e3837879df30442bbc2500d0a5c3f3
-  - enabled: 0
+  - enabled: 1
+    path: Assets/Scenes/texting.unity
+    guid: 8655cb0d884547f4bb6870bf82c273ac
+  - enabled: 1
     path: Assets/Scenes/inside.unity
     guid: 1d234cd88ed3bdc45892e73049c3bbfb
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/outside.unity
     guid: e7947425e7bc5574d80e65a77a10c58b
