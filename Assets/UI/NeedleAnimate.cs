@@ -10,7 +10,7 @@ public class NeedleAnimate : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 
-        player = GameObject.Find("RigidBodyFPSController");
+        player = GameObject.Find("Player");
         //needle = GetComponent<RectTransform>();
 
     }

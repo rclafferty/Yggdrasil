@@ -40,6 +40,12 @@ ModelImporter:
     4300006: Text_001
     4300008: Text
     4300010: Cube_004
+    6400000: Cube_004
+    6400002: Text
+    6400004: Text_001
+    6400006: Text_002
+    6400008: Text_003
+    6400010: Text_004
     7400000: Default Take
     9500000: //RootNode
   externalObjects: {}
@@ -74,13 +80,13 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
-    addColliders: 0
+    addColliders: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 0
     importLights: 0
-    swapUVChannels: 0
-    generateSecondaryUV: 0
+    swapUVChannels: 1
+    generateSecondaryUV: 1
     useFileUnits: 1
     optimizeMeshForGPU: 1
     keepQuads: 0
