@@ -17,7 +17,7 @@ public class TorchBehavior : MonoBehaviour {
     private void OnCollisionStay(Collision collision)
     {
         Debug.Log("Collided with " + collision.collider.name);
-        if (collision.collider.name == "Woodplank" && Input.GetAxis("Fire") > 0)
+        if (collision.collider.name == "Door" && Input.GetAxis("Fire") > 0)
         {
             Debug.Log("Destroying " + collision.collider.name);
             BurnDoor(collision);
