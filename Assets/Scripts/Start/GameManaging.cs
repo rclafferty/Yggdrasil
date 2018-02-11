@@ -89,11 +89,13 @@ public class GameManaging : MonoBehaviour {
         //startButton.transform.SetAsFirstSibling();
         //quitButton.transform.SetAsFirstSibling();
 
-        //Destroy(fadeImage.gameObject);
+        Destroy(fadeImage.gameObject);
 
         //fadeImage.transform.parent.gameObject.SetActive(false);
         yield return null;
     }
+
+
 
     public void StartGame()
     {
