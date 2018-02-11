@@ -26,7 +26,7 @@ public class TorchBehavior : MonoBehaviour {
 
     private void OnCollisionEnter(Collision collision)
     {
-        
+        Debug.Log("Collided with " + collision.collider.name);
     }
 
     void BurnDoor(Collision collision)
