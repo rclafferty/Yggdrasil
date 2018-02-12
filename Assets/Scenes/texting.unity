@@ -2443,7 +2443,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 804237257}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 05127033105130a4285c333efc3afc59, type: 3}
+  m_Script: {fileID: 11500000, guid: c77f7e857e6f61b488b239ff45b805f4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   fadeImage: {fileID: 1982449223}
