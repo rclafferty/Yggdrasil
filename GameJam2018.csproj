@@ -330,9 +330,9 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\Burning\BURNTHETREE.cs" />
     <Compile Include="Assets\Scripts\Burning\DoorBehavior.cs" />
     <Compile Include="Assets\Scripts\Burning\TorchBehavior.cs" />
-    <Compile Include="Assets\Scripts\CompassBehavior.cs" />
     <Compile Include="Assets\Scripts\Puzzles\Puzzle1.cs" />
     <Compile Include="Assets\Scripts\Puzzles\Puzzle2.cs" />
     <Compile Include="Assets\Scripts\Start\GameManaging.cs" />
@@ -340,8 +340,9 @@
     <Compile Include="Assets\Scripts\Start\SpashControllerBehavior.cs" />
     <Compile Include="Assets\Scripts\Start\StartController.cs" />
     <Compile Include="Assets\Scripts\Texting\TextingController.cs" />
-    <Compile Include="Assets\Scripts\UI\UIBehavior.cs" />
-    <Compile Include="Assets\UI\NeedleAnimate.cs" />
+    <Compile Include="Assets\Scripts\UI\CompassBehavior.cs" />
+    <Compile Include="Assets\Scripts\UI\NeedleAnimate.cs" />
+    <Compile Include="Assets\TreeBehavior.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Standard Assets\Cameras\CameraGuidelines.txt" />

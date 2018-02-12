@@ -22,7 +22,7 @@ public class Puzzle1 : MonoBehaviour {
         
         correctAnswer = 1;
 
-        puzzleCanvas.gameObject.SetActive(false);
+        //puzzleCanvas.gameObject.SetActive(false);
     }
 
     // Update is called once per frame
