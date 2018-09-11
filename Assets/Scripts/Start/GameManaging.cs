@@ -100,7 +100,8 @@ public class GameManaging : MonoBehaviour {
     public void StartGame()
     {
         //GameObject.Find("GameManager").GetComponent<GameManaging>().Fade("texting");
-        LoadScene("texting");
+        //LoadScene("texting");
+        LoadScene("texting2");
         DeactivateUI();
 
         Debug.Log("Starting...");
