@@ -13,6 +13,6 @@ public class SunManagerBehavior : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        sun.transform.Rotate(Vector3.right, 0.050f);
+        sun.transform.Rotate(Vector3.right, 0.010f);
 	}
 }

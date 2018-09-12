@@ -6161,7 +6161,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1392102070}
   - component: {fileID: 1392102069}
-  - component: {fileID: 1392102071}
   m_Layer: 0
   m_Name: Sun
   m_TagString: Untagged
@@ -6219,17 +6218,6 @@ Transform:
   m_Father: {fileID: 1513301386}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1392102071
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1392102068}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d4f4d1662e7fa8246bd8c4ba7d9fe65c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1403589643
 GameObject:
   m_ObjectHideFlags: 0
@@ -6649,6 +6637,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1513301386}
+  - component: {fileID: 1513301387}
   m_Layer: 0
   m_Name: SunManager
   m_TagString: Untagged
@@ -6670,6 +6659,17 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1513301387
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1513301385}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4f4d1662e7fa8246bd8c4ba7d9fe65c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1524236737
 GameObject:
   m_ObjectHideFlags: 0
